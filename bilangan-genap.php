@@ -1,6 +1,7 @@
 <?php
-
-echo "Bilangan Genap Dari 1 - 100:<br>";
-for ($i = 2; $i <= 100; $i += 2) {
+echo "Bilangan genap antara 1 sampai 100:<br>";
+$i = 2;
+while ($i <= 100) {
     echo $i . "<br>";
+    $i += 2;
 }
